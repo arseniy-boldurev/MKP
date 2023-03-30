@@ -17,3 +17,4 @@ def test_population_change(population_file):
         'United States': [(2010, 2020, -21654458)]
     }
     assert population_change(population_file) == expected
+
